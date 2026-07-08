@@ -6,7 +6,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'input)))))
+    (is (some? (find-ns 'input)))))
 
 ;; mirrors `test_input_map`
 (deftest test-input-map
