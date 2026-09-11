@@ -16,7 +16,7 @@ consumes those raw events.
 
 Restored — the single-namespace input interpreter ported from the
 original 429-line Rust `lib.rs`, with all 3 original Rust unit tests
-mirrored 1:1 in `test/input_test.cljc` (+1 smoke test) — 4 tests / 12
+mirrored 1:1 in `test/input_test.cljk` (+1 smoke test) — 4 tests / 12
 assertions, 0 failures. Pure data + pure functions throughout; no
 IO/GPU. `pop-modal` returns `[popped-panel-or-nil fm']` rather than
 Rust's `&mut self` mutation.
