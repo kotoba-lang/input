@@ -24,5 +24,5 @@ Rust's `&mut self` mutation.
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
